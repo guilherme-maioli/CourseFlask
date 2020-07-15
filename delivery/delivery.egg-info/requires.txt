@@ -1,4 +1,5 @@
 flask
+flask-sqlalchemy
 
 [dev]
 black
@@ -11,3 +12,4 @@ isort
 pytest
 pytest-flask
 pytest-cov
+pylint-flask
