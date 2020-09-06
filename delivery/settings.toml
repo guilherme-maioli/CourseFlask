@@ -10,11 +10,11 @@ EXTENSIONS = [
     "delivery.ext.site:init_app",
     "delivery.ext.hooks:init_app",
 ]
+UPLOAD_FOLDER = "uploads"
 
 
 [development]
 DEBUG = true
-SECRET_KEY = "adasdadad"
 SQLALCHEMY_DATABASE_URI = "sqlite:///delivery.db"
 SQLALCHEMY_TRACK_MODIFICATIONS = false
 DEBUG_TB_TEMPLATE_EDITOR_ENABLED = true

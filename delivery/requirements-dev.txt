@@ -9,3 +9,5 @@ pytest
 pytest-flask
 pytest-cov
 pylint-flask
+flask-wtf
+email_validator
